@@ -38,7 +38,7 @@ def calculator_functionality(result, recaculate="no"):
         num2 = float(input("What is the second number you want to use? "))
         answer = calculator(function, num1, num2)
         print((f"The answer is {answer}."))
-        return answer 
+        return answer
 
 while calculator_power:
     if first_calculation:
